@@ -21,7 +21,7 @@ class Handler extends RotatingFileHandler
      * Handler constructor.
      *
      * @param DirectoryList $directoryList
-     * @param $filename
+     * @param string $filename
      * @param int $maxFiles
      * @param int $level
      * @param bool $bubble
